@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <style>
+	 /*去除页眉页脚*/
+        @page {
+            size: auto;
+            margin: 0mm;
+        }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .pull-left {
+      float: left;
+    }
+    .pull-right {
+      float: right;
+    }
+
+    .clearfix:after{visibility:hidden;display:block;font-size:0;content: " ";clear:both;height:0;}
+    .clearfix{*zoom:1;}
+
+    .width-10 {
+      width: 10%;
+    }
+    .typeBox {
+      width: 85%;
+      margin: 0 auto;
+    }
+    .regionItems {
+      /* width: 85%; */
+      margin: 15px auto;
+      padding: 0;
+
+    }
+    .regionItems li  {
+      list-style: none;
+      padding: 0;
+      position: relative;
+      margin: 10px 0;
+    }
+
+
+    .heading {
+      margin: 20px 0;
+    }
+    .heading > .information{
+      margin: 20px 0;
+    }
+    .information > div{
+      display: inline-block;
+      width: 32%
+    }
+
+    .information .underline{
+      display: inline-block;
+      width: 70%;
+      height: 15px;
+      vertical-align: bottom;
+      border-bottom: 1px solid #ccc;
+    }
+    .number > span {
+      display: inline-block;
+    }
+
+    .block {
+      display: inline-block;
+      vertical-align: text-bottom;
+    }
+    .block span{
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+
+      border: 1px solid #ccc;
+      float: left;
+      border-right: none;
+    }
+    .block span:last-child{
+      border-right: 1px solid #ccc;
+    }
+    .option > div{
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .fill-in-the-blanks-box {
+      position: relative;
+    }
+    .fill-in-the-blanks-trunk {
+      width: 80%;
+    }
+    .fill-in-the-blanks-box > .scoring {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40px;
+      height: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .answer-questions-trunk .question-summary img {
+      height: auto !important;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+    .answer-questions-box  > .scoring {
+      margin: 10px 0;
+    }
+    .answer-questions-box  > .scoring > span {
+      padding: 1px 5.8px;
+      border: 1px solid #ccc;
+      float: left;
+    }
+    .title {
+      text-align: center;
+    }
+    .page {
+      text-align: center;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="typeBox">
+    <!-- heading --><!--全部信息都在partInfos 里面  第一个partBaseInfo里面包含的是试卷标题信息
+    然后接下来的每一个partBaseInfo里面都是一个大题，然后大题内容信息，然后下面questionInfos包含的是小题信息-->
+    <div class="heading">
+      <h2 class="title">2018-2019年度初三化学第二次月考</h2>
+      <div class="information">
+        <div class="name">
+          <span>姓名</span>
+          <span class="underline"></span>
+        </div>
+        <div class="grade">
+            <span>班级</span>
+            <span class="underline"></span>
+        </div>
+        <div class="number">
+            <span>编号</span>
+            <div class="block">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 单项所对应的的list -->
+    <ul class="regionItems">
+      <!-- 题型名称、序号、分值 -->
+      <h4 style="font-weight: 500;">一、单项选择题(每题3分)</h4>
+      <!-- 该题型下的题目list -->
+      
+	  <li><div style="position:relative; height:116pt; width:100%; ">
+ <style type="text/css">.awdiv { position:absolute; } .awspan { position:absolute; white-space:pre; color:#000000; font-size:12pt; font-kerning:none; } .awimg { position:absolute; } .awsvg { position:absolute; } .awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; } .awtext1 { font-family:'FreeSerif'; font-style:normal; font-weight:bold; } .awtext3 { font-family:'SimSun'; font-style:normal; font-weight:bold; } .awtext4 { font-family:'FreeSerif'; font-style:normal; font-weight:normal; } .awtext5 { font-family:'SimSun'; font-style:normal; font-weight:normal; }</style>
+ <div class="awdiv" style="top:0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">1.</span> 
+  <span class="awspan awtext5" style="font-size:11pt; left:21pt; top:6.55pt;">下列化学方程式书写正确的是</span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:164pt; top:6.55pt;">(</span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:167.5pt; top:6.55pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:204.25pt; top:6.55pt;">)</span> 
+ </div>
+ <div class="awdiv" style="left:21.0pt; top:20.0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">[ A ]</span> 
+  <span class="awspan awtext4" style="font-size:8pt; left:20.77pt; top:8.8pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:28.77pt; top:6.1pt;">3Fe + 2O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:70.41pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:73.91pt; top:6.1pt;"> ====Fe</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:112.48pt; top:11.35pt;">3</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:115.98pt; top:6.1pt;">O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:123.92pt; top:11.35pt;">4</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:210pt; top:6.1pt;">[ B ] </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:232.91pt; top:6.1pt;">2H</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:246.35pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:249.85pt; top:6.1pt;">O </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:260.55pt; top:6.1pt;">====</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:285.36pt; top:6.1pt;"> 2H</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:301.55pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:305.05pt; top:6.1pt;">↑ + O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:329.89pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:333.39pt; top:6.1pt;">↑</span> 
+ </div>
+ <div class="awdiv" style="left:21.0pt; top:40.0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">[ C ] Mg + O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:57.84pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:61.34pt; top:6.1pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:11pt; letter-spacing:-1pt; left:64.09pt; top:6.1pt;">===</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:79.7pt; top:6.1pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:90.7pt; top:6.1pt;">MgO</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:113.92pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:210pt; top:6.1pt;">[ D ] </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:233.52pt; top:6.1pt;">P + O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:259.28pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:262.78pt; top:6.1pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:11pt; letter-spacing:-1pt; left:265.53pt; top:6.1pt;">=== </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:282.89pt; top:6.1pt;">P</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:289.01pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:292.51pt; top:6.1pt;">O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:300.45pt; top:11.35pt;">5</span> 
+ </div>
+</div>
+<div class="awdiv" style="left:77.52pt; top:-45.3pt; z-index:1;"> 
+ <div class="awdiv" style="clip:rect(3.6pt,54.55pt,23.3pt,0pt);"> 
+  <div class="awdiv" style="left:7.55pt; top:3.95pt; z-index:3;"> 
+   <span class="awspan awtext5" style="font-size:9pt; left:0pt; top:6.67pt;">点燃</span> 
+  </div> 
+ </div> 
+</div>
+<div class="awdiv" style="left:272.25pt; top:-66.05pt; z-index:1;"> 
+ <div class="awdiv" style="clip:rect(3.6pt,54.55pt,23.3pt,0pt);"> 
+  <div class="awdiv" style="left:7.55pt; top:3.95pt; z-index:3;"> 
+   <span class="awspan awtext5" style="font-size:9pt; left:0pt; top:6.67pt;">通电</span> 
+  </div> 
+ </div> 
+</div>
+<div class="awdiv" style="left:275.25pt; top:-45.3pt; z-index:1;"> 
+ <div class="awdiv" style="clip:rect(3.6pt,54.55pt,23.3pt,0pt);"> 
+  <div class="awdiv" style="left:7.55pt; top:3.95pt; z-index:3;"> 
+   <span class="awspan awtext5" style="font-size:9pt; left:0pt; top:6.67pt;">点燃</span> 
+  </div> 
+ </div> 
+</div></li>
+      
+	  <li><div style="position:relative; height:176pt; width:100%; ">
+ <style type="text/css">.awdiv { position:absolute; } .awspan { position:absolute; white-space:pre; color:#000000; font-size:12pt; font-kerning:none; } .awimg { position:absolute; } .awsvg { position:absolute; } .awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; } .awtext1 { font-family:'FreeSerif'; font-style:normal; font-weight:bold; } .awtext3 { font-family:'SimSun'; font-style:normal; font-weight:bold; } .awtext4 { font-family:'FreeSerif'; font-style:normal; font-weight:normal; } .awtext5 { font-family:'SimSun'; font-style:normal; font-weight:normal; }</style>
+ <div class="awdiv" style="top:0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">2.</span> 
+  <span class="awspan awtext5" style="font-size:11pt; left:21pt; top:6.55pt;">下列化学方程式，书写正确的是</span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:175pt; top:6.55pt;">(</span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:178.5pt; top:6.55pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:215.25pt; top:6.55pt;">)</span> 
+ </div>
+ <div class="awdiv" style="left:21.0pt; top:20.0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">[ A ]</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:20.77pt; top:6.1pt;"> 4Fe + 3O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:65.16pt; top:11.35pt;">2 </span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:72.16pt; top:6.37pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:75.66pt; top:6.1pt;">==== Fe</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:114.23pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:117.73pt; top:6.1pt;">O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:125.67pt; top:11.35pt;">3</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:231pt; top:6.1pt;">[ B ] H</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:261.86pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:265.36pt; top:6.1pt;"> + O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:285pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:288.5pt; top:6.1pt;"> </span> 
+  <div class="awdiv" style="left:295.5pt; top:-2pt; clip:rect(2pt,34.5pt,25pt,0pt);"> 
+   <div class="awdiv" style="clip:rect(0pt,32.25pt,25pt,0pt);"> 
+    <div class="awdiv" style="left:0pt; top:0pt;"> 
+     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="43" height="32"> 
+      <defs> 
+       <clippath id="clip6"> 
+        <path d="M0,0 L1333.333374023,0 L1333.333374023,1333.333374023 L0,1333.333374023 Z" clip-rule="evenodd" /> 
+       </clippath> 
+       <clippath id="clip7"> 
+        <path d="M30.303030014,0 L30.303030014,808.080810547 L1333.333374023,808.080810547 L1333.333374023,0 Z" clip-rule="evenodd" /> 
+       </clippath> 
+       <clippath id="clip8"> 
+        <path d="M30.303030014,0 L1333.333374023,0 L1333.333374023,808.080810547 L30.303030014,808.080810547 Z" clip-rule="evenodd" /> 
+       </clippath> 
+      </defs> 
+      <g> 
+       <g> 
+        <g transform="matrix(0.032249998,0,0,0.024,0,0)" clip-path="url(#clip6)"> 
+         <g> 
+          <path d="M32.323230743,535.353515625 L1264.646362305,535.353515625 " transform="matrix(1,0,0,1.333333373,0,0)" stroke-width="30.303030014" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10.666666985" stroke="#000000" fill="none" fill-rule="evenodd" /> 
+          <path d="M32.323230743,634.343383789 L1264.646362305,634.343383789 " transform="matrix(1,0,0,1.333333373,0,0)" stroke-width="30.303030014" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10.666666985" stroke="#000000" fill="none" fill-rule="evenodd" /> 
+          <g clip-path="url(#clip7)"> 
+           <g clip-path="url(#clip8)"> 
+            <text transform="matrix(1,0,0,1.333333373,0,0)"> 
+             <tspan x="333.333343506" y="424.242431641" font-family="SimSun" font-weight="normal" font-style="normal" font-size="333.333343506" fill="#000000">
+               点 
+             </tspan> 
+            </text> 
+            <text transform="matrix(1,0,0,1.333333373,0,0)"> 
+             <tspan x="666.666687012" y="424.242431641" font-family="SimSun" font-weight="normal" font-style="normal" font-size="333.333343506" fill="#000000">
+               燃 
+             </tspan> 
+            </text> 
+           </g> 
+          </g> 
+         </g> 
+        </g> 
+       </g> 
+      </g> 
+     </svg> 
+    </div> 
+   </div> 
+  </div> 
+  <span class="awspan awtext4" style="font-size:11pt; left:328.5pt; top:6.1pt;">H</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:336.44pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:339.94pt; top:6.1pt;">O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:347.89pt; top:11.35pt;">2</span> 
+ </div>
+ <div class="awdiv" style="left:21.0pt; top:40.0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">[ C ] CO</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:38.19pt; top:11.35pt;">2 </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:43.44pt; top:6.1pt;">+ H</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:60.34pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:63.84pt; top:6.1pt;">O ==== HCO</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:125.32pt; top:11.35pt;">3</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:231pt; top:6.1pt;">[ D ] 2H</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:267.96pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:271.46pt; top:6.1pt;">O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:279.4pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:282.9pt; top:6.1pt;"> ==== H</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:321.16pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:324.66pt; top:6.1pt;">O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:332.6pt; top:11.35pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:334.35pt; top:6.1pt;">+ O</span> 
+  <span class="awspan awtext4" style="font-size:7pt; left:351.25pt; top:11.35pt;">2</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:354.75pt; top:6.1pt;">↑</span> 
+ </div>
+</div>
+<div class="awdiv" style="left:301.5pt; top:-42.2pt; z-index:1;"> 
+ <div class="awdiv" style="clip:rect(3.6pt,54.55pt,23.3pt,0pt);"> 
+  <div class="awdiv" style="left:7.55pt; top:3.95pt; z-index:3;"> 
+   <span class="awspan awtext4" style="font-size:9pt; left:0pt; top:6.3pt;">MnO</span> 
+   <span class="awspan awtext4" style="font-size:6pt; left:19pt; top:10.35pt;">2</span> 
+  </div> 
+ </div> 
+</div></li>
+    </ul>
+    <ul class="regionItems">
+      <!-- 题型名称、序号、分值 -->
+      <h4 style="font-weight: 500;">二、判断题(每题3分)</h4>
+      <!-- 该题型下的题目list -->
+      
+	  <li><div style="position:relative; height:256pt; width:100%; ">
+ <style type="text/css">.awdiv { position:absolute; } .awspan { position:absolute; white-space:pre; color:#000000; font-size:12pt; font-kerning:none; } .awimg { position:absolute; } .awsvg { position:absolute; } .awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; } .awtext1 { font-family:'FreeSerif'; font-style:normal; font-weight:bold; } .awtext3 { font-family:'SimSun'; font-style:normal; font-weight:bold; } .awtext4 { font-family:'FreeSerif'; font-style:normal; font-weight:normal; } .awtext5 { font-family:'SimSun'; font-style:normal; font-weight:normal; }</style>
+ <div class="awdiv" style="top:0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">1.</span> 
+  <span class="awspan awtext5" style="font-size:11pt; left:21pt; top:6.55pt;">下列化</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:56.75pt; top:6.1pt;">1</span> 
+  <span class="awspan awtext5" style="font-size:11pt; left:65pt; top:6.55pt;">学方程式书写正确的是</span> 
+  <span class="awspan awtext4" style="font-size:11pt; left:177.75pt; top:6.1pt;">1</span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:183.25pt; top:6.55pt;">(</span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:186.75pt; top:6.55pt;"> </span> 
+  <span class="awspan awtext4" style="font-size:10.5pt; left:223.5pt; top:6.55pt;">)</span> 
+ </div>
+</div></li>
+      
+	  <li><div style="position:relative; height:276pt; width:100%; ">
+ <style type="text/css">.awdiv { position:absolute; } .awspan { position:absolute; white-space:pre; color:#000000; font-size:12pt; font-kerning:none; } .awimg { position:absolute; } .awsvg { position:absolute; } .awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; } .awtext1 { font-family:'FreeSerif'; font-style:normal; font-weight:bold; } .awtext3 { font-family:'SimSun'; font-style:normal; font-weight:bold; } .awtext4 { font-family:'FreeSerif'; font-style:normal; font-weight:normal; } .awtext5 { font-family:'SimSun'; font-style:normal; font-weight:normal; }</style>
+ <div class="awdiv" style="top:0pt; z-index:2;"> 
+ <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">1.</span> 
+  <span class="awspan awtext5" style="font-size:11pt; left:21pt; top:6.55pt;">请绘制清明上河图:</span> 
+ </div>
+</div></li>
+    </ul>
+    <ul class="regionItems">
+      <!-- 题型名称、序号、分值 -->
+      <h4 style="font-weight: 500;">三、简答题(每题30分)</h4>
+      <!-- 该题型下的题目list -->
+      
+	  <li><div style="position:relative; height:316pt; width:100%; ">
+ <style type="text/css">.awdiv { position:absolute; } .awspan { position:absolute; white-space:pre; color:#000000; font-size:12pt; font-kerning:none; } .awimg { position:absolute; } .awsvg { position:absolute; } .awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; } .awtext1 { font-family:'FreeSerif'; font-style:normal; font-weight:bold; } .awtext3 { font-family:'SimSun'; font-style:normal; font-weight:bold; } .awtext4 { font-family:'FreeSerif'; font-style:normal; font-weight:normal; } .awtext5 { font-family:'SimSun'; font-style:normal; font-weight:normal; }</style>
+ <div class="awdiv" style="top:0pt; z-index:2;"> 
+  <span class="awspan awtext4" style="font-size:11pt; left:0pt; top:6.1pt;">1.</span> 
+  <span class="awspan awtext5" style="font-size:11pt; left:21pt; top:6.55pt;">请绘制清明上河图:</span> 
+ </div>
+</div></li>
+    </ul>
+
+
+    
+  </div>
+</body>
+
+</html>
